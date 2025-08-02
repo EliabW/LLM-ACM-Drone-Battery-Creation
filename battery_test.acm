@@ -1,0 +1,197 @@
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" Name="TurnigyGraphene1000mAh2S75C" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="cad" xsi:type="q1:CADModel" Name="para_battery.prt" Format="Creo" xmlns="">
+    <Datum xsi:type="q1:Plane" Name="RIGHT" DatumName="RIGHT" />
+    <Datum xsi:type="q1:Plane" Name="TOP" DatumName="TOP" />
+    <Datum xsi:type="q1:Plane" Name="MOUNT" DatumName="MOUNT" />
+    <Datum xsi:type="q1:Plane" Name="Z" DatumName="Z" />
+    <Datum xsi:type="q1:Plane" Name="X" DatumName="X" />
+    <Datum xsi:type="q1:Plane" Name="FRONT" DatumName="FRONT" />
+    <Datum xsi:type="q1:CoordinateSystem" ID="id-fe52d023-f557-4bc4-b588-76dd064b369d" Name="TOP_CS_OUT" DatumName="TOP_CS_OUT" />
+    <Datum xsi:type="q1:CoordinateSystem" ID="id-38a940db-d95b-42ba-a019-e365023d703b" Name="BOTTOM_CS_IN" DatumName="BOTTOM_CS_IN" />
+    <Datum xsi:type="q1:CoordinateSystem" Name="PRT_CSYS_DEF" DatumName="PRT_CSYS_DEF" />
+    <Parameter Name="MODELED_BY">
+      <Value DataType="String">
+        <ValueExpression xmlns:q2="avm" xsi:type="q2:DerivedValue" ValueSource="id-11506b02-22be-4cb1-851d-1f5543d59dae" />
+      </Value>
+    </Parameter>
+    <Parameter Name="ROTATION">
+      <Value DataType="String">
+        <ValueExpression xmlns:q3="avm" xsi:type="q3:DerivedValue" ValueSource="id-116f488f-f102-11ec-ad3b-3887d5d99062" />
+      </Value>
+    </Parameter>
+    <Parameter Name="WIDTH">
+      <Value DataType="Real">
+        <ValueExpression xmlns:q4="avm" xsi:type="q4:DerivedValue" ValueSource="id-e9de26f2-a90f-11eb-bbb5-784f4367106c" />
+      </Value>
+    </Parameter>
+    <Parameter Name="DESCRIPTION">
+      <Value DataType="String">
+        <ValueExpression xmlns:q5="avm" xsi:type="q5:DerivedValue" ValueSource="id-44b1694d-1192-4378-ba32-0d16acf8a5ce" />
+      </Value>
+    </Parameter>
+    <Parameter Name="LENGTH">
+      <Value DataType="Real">
+        <ValueExpression xmlns:q6="avm" xsi:type="q6:DerivedValue" ValueSource="id-e9ddffc4-a90f-11eb-bbb5-784f4367106c" />
+      </Value>
+    </Parameter>
+    <Parameter Name="THICKNESS">
+      <Value DataType="Real">
+        <ValueExpression xmlns:q7="avm" xsi:type="q7:DerivedValue" ValueSource="id-e9ddd8a0-a90f-11eb-bbb5-784f4367106c" />
+      </Value>
+    </Parameter>
+    <Parameter Name="WEIGHT">
+      <Value DataType="Real">
+        <ValueExpression xmlns:q8="avm" xsi:type="q8:DerivedValue" ValueSource="id-e9de0c44-a90f-11eb-bbb5-784f4367106c" />
+      </Value>
+    </Parameter>
+  </DomainModel>
+  <Property xmlns:q9="avm" xsi:type="q9:PrimitiveProperty" Name="LENGTH" OnDataSheet="false" ID="property.id-e9ddffc4-a90f-11eb-bbb5-784f4367106c" xmlns="">
+    <Value ID="id-e9ddffc4-a90f-11eb-bbb5-784f4367106c" DimensionType="Scalar" DataType="String">
+      <ValueExpression xsi:type="q9:FixedValue">
+        <Value>74.0</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q10="avm" xsi:type="q10:PrimitiveProperty" Name="MODEL" OnDataSheet="false" ID="property.id-e9de263e-a90f-11eb-bbb5-784f4367106c" xmlns="">
+    <Value ID="id-e9de263e-a90f-11eb-bbb5-784f4367106c" DimensionType="Scalar" DataType="String">
+      <ValueExpression xsi:type="q10:FixedValue">
+        <Value>Turnigy Graphene 1000mAh 2S 75C</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q11="avm" xsi:type="q11:PrimitiveProperty" Name="NUMBER_OF_CELLS" OnDataSheet="false" ID="property.id-e9ddf2f4-a90f-11eb-bbb5-784f4367106c" xmlns="">
+    <Value ID="id-e9ddf2f4-a90f-11eb-bbb5-784f4367106c" DimensionType="Scalar" DataType="String">
+      <ValueExpression xsi:type="q11:FixedValue">
+        <Value>2S1P</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q12="avm" xsi:type="q12:PrimitiveProperty" Name="THICKNESS" OnDataSheet="false" ID="property.id-e9ddd8a0-a90f-11eb-bbb5-784f4367106c" xmlns="">
+    <Value ID="id-e9ddd8a0-a90f-11eb-bbb5-784f4367106c" DimensionType="Scalar" DataType="String">
+      <ValueExpression xsi:type="q12:FixedValue">
+        <Value>17</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q13="avm" xsi:type="q13:PrimitiveProperty" Name="DISCHARGE_PLUG" OnDataSheet="false" ID="property.id-e9ddc5f4-a90f-11eb-bbb5-784f4367106c" xmlns="">
+    <Value ID="id-e9ddc5f4-a90f-11eb-bbb5-784f4367106c" DimensionType="Scalar" DataType="String">
+      <ValueExpression xsi:type="q13:FixedValue">
+        <Value>XT60</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q14="avm" xsi:type="q14:PrimitiveProperty" Name="VOLTAGE" OnDataSheet="false" ID="property.id-e9de3354-a90f-11eb-bbb5-784f4367106c" xmlns="">
+    <Value ID="id-e9de3354-a90f-11eb-bbb5-784f4367106c" DimensionType="Scalar" DataType="String">
+      <ValueExpression xsi:type="q14:FixedValue">
+        <Value>7.4</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q15="avm" xsi:type="q15:PrimitiveProperty" Name="CAPACITY" OnDataSheet="false" ID="property.id-e9de3f84-a90f-11eb-bbb5-784f4367106c" xmlns="">
+    <Value ID="id-e9de3f84-a90f-11eb-bbb5-784f4367106c" DimensionType="Scalar" DataType="String">
+      <ValueExpression xsi:type="q15:FixedValue">
+        <Value>1000</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q16="avm" xsi:type="q16:PrimitiveProperty" Name="WIDTH" OnDataSheet="false" ID="property.id-e9de26f2-a90f-11eb-bbb5-784f4367106c" xmlns="">
+    <Value ID="id-e9de26f2-a90f-11eb-bbb5-784f4367106c" DimensionType="Scalar" DataType="String">
+      <ValueExpression xsi:type="q16:FixedValue">
+        <Value>35</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q17="avm" xsi:type="q17:PrimitiveProperty" Name="BATTERY_TYPE" OnDataSheet="false" ID="property.id-02111d9f-f7d5-11ec-b665-3887d5d99062" xmlns="">
+    <Value ID="id-02111d9f-f7d5-11ec-b665-3887d5d99062" DimensionType="Scalar" DataType="String">
+      <ValueExpression xsi:type="q17:FixedValue">
+        <Value>UAV</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q18="avm" xsi:type="q18:PrimitiveProperty" Name="COST" OnDataSheet="false" ID="property.id-e9dde5e8-a90f-11eb-bbb5-784f4367106c" xmlns="">
+    <Value ID="id-e9dde5e8-a90f-11eb-bbb5-784f4367106c" DimensionType="Scalar" DataType="String">
+      <ValueExpression xsi:type="q18:FixedValue">
+        <Value>9.54</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q19="avm" xsi:type="q19:PrimitiveProperty" Name="WEIGHT" OnDataSheet="false" ID="property.id-e9de0c44-a90f-11eb-bbb5-784f4367106c" xmlns="">
+    <Value ID="id-e9de0c44-a90f-11eb-bbb5-784f4367106c" DimensionType="Scalar" DataType="String">
+      <ValueExpression xsi:type="q19:FixedValue">
+        <Value>0.084</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q20="avm" xsi:type="q20:PrimitiveProperty" Name="CONT_DISCHARGE_RATE" OnDataSheet="false" ID="property.id-e9de1996-a90f-11eb-bbb5-784f4367106c" xmlns="">
+    <Value ID="id-e9de1996-a90f-11eb-bbb5-784f4367106c" DimensionType="Scalar" DataType="String">
+      <ValueExpression xsi:type="q20:FixedValue">
+        <Value>75</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q21="avm" xsi:type="q21:PrimitiveProperty" Name="PEAK_DISCHARGE_RATE" OnDataSheet="false" ID="property.id-e9de4c40-a90f-11eb-bbb5-784f4367106c" xmlns="">
+    <Value ID="id-e9de4c40-a90f-11eb-bbb5-784f4367106c" DimensionType="Scalar" DataType="String">
+      <ValueExpression xsi:type="q21:FixedValue">
+        <Value>150</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q22="avm" xsi:type="q22:PrimitiveProperty" Name="CHEMISTRY_TYPE" OnDataSheet="false" ID="property.id-e9de58c0-a90f-11eb-bbb5-784f4367106c" xmlns="">
+    <Value ID="id-e9de58c0-a90f-11eb-bbb5-784f4367106c" DimensionType="Scalar" DataType="String">
+      <ValueExpression xsi:type="q22:FixedValue">
+        <Value>LiPo</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q23="avm" xsi:type="q23:PrimitiveProperty" Name="DESCRIPTION" OnDataSheet="false" ID="property.id-44b1694d-1192-4378-ba32-0d16acf8a5ce" xmlns="">
+    <Value ID="id-44b1694d-1192-4378-ba32-0d16acf8a5ce" DimensionType="Scalar" DataType="String">
+      <ValueExpression xsi:type="q23:FixedValue">
+        <Value />
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q24="avm" xsi:type="q24:PrimitiveProperty" Name="MODELED_BY" OnDataSheet="false" ID="property.id-11506b02-22be-4cb1-851d-1f5543d59dae" xmlns="">
+    <Value ID="id-11506b02-22be-4cb1-851d-1f5543d59dae" DimensionType="Scalar" DataType="String">
+      <ValueExpression xsi:type="q24:FixedValue">
+        <Value />
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q25="avm" xsi:type="q25:PrimitiveProperty" Name="PACK_RESISTANCE" OnDataSheet="false" ID="property.id-e9de655e-a90f-11eb-bbb5-784f4367106c" xmlns="">
+    <Value ID="id-e9de655e-a90f-11eb-bbb5-784f4367106c" DimensionType="Scalar" DataType="String">
+      <ValueExpression xsi:type="q25:FixedValue">
+        <Value>11.0</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <Property xmlns:q26="avm" xsi:type="q26:PrimitiveProperty" Name="ROTATION" ID="param.id-116f488f-f102-11ec-ad3b-3887d5d99062" xmlns="">
+    <Value ID="id-116f488f-f102-11ec-ad3b-3887d5d99062" DimensionType="Scalar" DataType="String">
+      <ValueExpression xsi:type="q26:ParametricValue">
+        <Default xsi:type="q26:FixedValue">
+          <Value>0</Value>
+        </Default>
+        <Maximum xsi:type="q26:FixedValue">
+          <Value>360</Value>
+        </Maximum>
+        <Minimum xsi:type="q26:FixedValue">
+          <Value>0</Value>
+        </Minimum>
+        <AssignedValue xsi:type="q26:FixedValue">
+          <Value>0</Value>
+        </AssignedValue>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="para_battery.prt" Path="..\..\CAD\para_battery.prt" ID="id-e9ddc54a-a90f-11eb-bbb5-784f4367106c" xmlns="" />
+  <Connector ID="id-d4bdf3ab-b59a-411c-b51b-7a8147a94763" Name="Bottom_Connector" xmlns="">
+    <Role xmlns:q27="cad" xsi:type="q27:CoordinateSystem" PortMap="id-38a940db-d95b-42ba-a019-e365023d703b" Name="BOTTOM_CS_IN" />
+  </Connector>
+  <Connector ID="id-d57fc661-dfca-4893-b272-96987029154e" Name="PowerBus" xmlns="">
+    <Role xmlns:q28="modelica" xsi:type="q28:Connector" Name="Pin_N" Locator="" Class="" />
+    <Role xmlns:q29="modelica" xsi:type="q29:Connector" Name="Pin_P" Locator="" Class="" />
+  </Connector>
+  <Connector ID="id-763f247b-9c61-46d8-92a7-910b7db3f9dc" Name="Top_Connector" xmlns="">
+    <Role xmlns:q30="cad" xsi:type="q30:CoordinateSystem" PortMap="id-fe52d023-f557-4bc4-b588-76dd064b369d" Name="TOP_CS_OUT" />
+  </Connector>
+  <Classifications xmlns="">Battery</Classifications>
+</Component>
