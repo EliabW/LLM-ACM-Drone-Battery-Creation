@@ -1,10 +1,10 @@
 
 # Automated Product Data Integration and ACM File Generation
 
-This project automates the process of integrating **battery product catalog data** into **ACM XML files**, updating both the **component name** and its **property blocks** using an **LLM-driven pipeline**.
+This project automates the process of integrating **battery product catalog data** into **ACM XML files**, updating both the **component name** and its **property blocks** using an **LLM driven pipeline**.
 
 The workflow simplifies the creation and maintenance of product data within an **ACM (Aerospace Component Model)** framework.  
-The generated `.acm` files are compatible with the **Generic Modeling Environment (GME)** and CyPhyML-based workflows.
+The generated `.acm` files are compatible with the **Generic Modeling Environment (GME)** and CyPhyML based workflows.
 
 ## Workflow
 
@@ -47,7 +47,7 @@ The notebook (**`main.ipynb`**) performs the following steps to generate an upda
      
    > **Note:**  
    > - The notebook currently defaults to `battery_test.acm` as the input file.  
-   > - A pre-defined `reference_json` for a LiPo battery is included in the notebook but can be modified.
+   > - A predefined `reference_json` for a LiPo battery is included in the notebook but can be modified.
 
 2. **Run the Notebook**  
    - Open and execute the notebook, which handles all steps in the workflow.  
